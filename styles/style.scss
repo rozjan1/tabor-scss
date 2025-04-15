@@ -1,0 +1,32 @@
+@import "custom";
+
+
+$primary: #2c5e1a;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+$body-bg: #ffffff;
+$body-color: #333333;
+
+$font-family-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 700;
+
+$border-radius: 0.5rem;
+$border-radius-lg: 0.75rem;
+$border-radius-sm: 0.25rem;
+
+$box-shadow: 0 0.5rem 1rem rgba($dark, 0.15);
+$box-shadow-lg: 0 1rem 3rem rgba($dark, 0.175);
+
+$navbar-dark-color: rgba($light, 0.8);
+$navbar-dark-hover-color: rgba($light, 0.95);
+$navbar-dark-active-color: $light;
+
+$border-radius: 1rem;
+
+@import "../bootstrap/scss/bootstrap.scss";
